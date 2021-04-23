@@ -1,4 +1,4 @@
-# Analytics archtecture
+# iOS Analytics archtecture
 
 This project makes part of my studies for the course [iOS Lead Essentials](https://iosacademy.essentialdeveloper.com/p/ios-lead-essentials/).
 
