@@ -1,0 +1,14 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "1bd2765de4fa705f6667024a8fe41abd"
+build_time: [1619153046, 662574000]
+inputs:
+  "/Users/fulllab/Documents/_FULLLAB/MOBFIQ/Mobfiq-Core-iOS/AnalyticsArchtecture/AnalyticsArchtecture/Project/AppDelegate.swift": [1619148527, 306192746]
+  "/Users/fulllab/Documents/_FULLLAB/MOBFIQ/Mobfiq-Core-iOS/AnalyticsArchtecture/AnalyticsArchtecture/Application/Main/Compositors/LoginUseCaseDelegateCompositor.swift": [1619151065, 825714584]
+  "/Users/fulllab/Documents/_FULLLAB/MOBFIQ/Mobfiq-Core-iOS/AnalyticsArchtecture/AnalyticsArchtecture/Application/Analytics/FacebookWrapper.swift": [1619152891, 178608429]
+  "/Users/fulllab/Documents/_FULLLAB/MOBFIQ/Mobfiq-Core-iOS/AnalyticsArchtecture/AnalyticsArchtecture/Application/Analytics/FirebaseWrapper.swift": [1619152873, 870636511]
+  "/Users/fulllab/Documents/_FULLLAB/MOBFIQ/Mobfiq-Core-iOS/AnalyticsArchtecture/AnalyticsArchtecture/Application/Main/Assemblers/Login/LoginAssembler.swift": [1619151847, 916469227]
+  "/Users/fulllab/Documents/_FULLLAB/MOBFIQ/Mobfiq-Core-iOS/AnalyticsArchtecture/AnalyticsArchtecture/Application/Features/Login/LoginPresenter.swift": [1619149893, 36231992]
+  "/Users/fulllab/Documents/_FULLLAB/MOBFIQ/Mobfiq-Core-iOS/AnalyticsArchtecture/AnalyticsArchtecture/Application/Features/Login/LoginView.swift": [1619149837, 310360730]
+  "/Users/fulllab/Documents/_FULLLAB/MOBFIQ/Mobfiq-Core-iOS/AnalyticsArchtecture/AnalyticsArchtecture/Application/Features/Login/LoginViewController.swift": [1619152833, 720199180]
+  "/Users/fulllab/Documents/_FULLLAB/MOBFIQ/Mobfiq-Core-iOS/AnalyticsArchtecture/AnalyticsArchtecture/Project/SceneDelegate.swift": [1619151909, 701016099]
+  "/Users/fulllab/Documents/_FULLLAB/MOBFIQ/Mobfiq-Core-iOS/AnalyticsArchtecture/AnalyticsArchtecture/Application/Features/Login/LoginUseCase.swift": [1619153046, 589466741]

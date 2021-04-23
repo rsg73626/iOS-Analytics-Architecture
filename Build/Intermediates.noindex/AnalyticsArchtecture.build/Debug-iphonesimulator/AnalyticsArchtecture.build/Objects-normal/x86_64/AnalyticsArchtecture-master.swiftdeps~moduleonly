@@ -1,0 +1,14 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "3b58737227edfe063e1a5ccf7219d3a4"
+build_time: [1619153941, 969401000]
+inputs:
+  "/Users/fulllab/Documents/AnalyticsArchtecture/AnalyticsArchtecture/Project/AppDelegate.swift": [1619153673, 728545526]
+  "/Users/fulllab/Documents/AnalyticsArchtecture/AnalyticsArchtecture/Application/Main/Compositors/LoginUseCaseDelegateCompositor.swift": [1619153673, 901058378]
+  "/Users/fulllab/Documents/AnalyticsArchtecture/AnalyticsArchtecture/Application/Analytics/FacebookWrapper.swift": [1619153673, 910469481]
+  "/Users/fulllab/Documents/AnalyticsArchtecture/AnalyticsArchtecture/Application/Analytics/FirebaseWrapper.swift": [1619153673, 920951413]
+  "/Users/fulllab/Documents/AnalyticsArchtecture/AnalyticsArchtecture/Application/Main/Assemblers/Login/LoginAssembler.swift": [1619153673, 889436478]
+  "/Users/fulllab/Documents/AnalyticsArchtecture/AnalyticsArchtecture/Application/Features/Login/LoginPresenter.swift": [1619153673, 928541922]
+  "/Users/fulllab/Documents/AnalyticsArchtecture/AnalyticsArchtecture/Application/Features/Login/LoginView.swift": [1619153673, 949262033]
+  "/Users/fulllab/Documents/AnalyticsArchtecture/AnalyticsArchtecture/Application/Features/Login/LoginViewController.swift": [1619153673, 937507550]
+  "/Users/fulllab/Documents/AnalyticsArchtecture/AnalyticsArchtecture/Project/SceneDelegate.swift": [1619153673, 737420898]
+  "/Users/fulllab/Documents/AnalyticsArchtecture/AnalyticsArchtecture/Application/Features/Login/LoginUseCase.swift": [1619153312, 863394181]

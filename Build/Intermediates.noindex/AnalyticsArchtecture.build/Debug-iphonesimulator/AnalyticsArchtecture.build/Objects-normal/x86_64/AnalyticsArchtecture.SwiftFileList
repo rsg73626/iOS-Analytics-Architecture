@@ -1,0 +1,10 @@
+/Users/fulllab/Documents/AnalyticsArchtecture/AnalyticsArchtecture/Project/AppDelegate.swift
+/Users/fulllab/Documents/AnalyticsArchtecture/AnalyticsArchtecture/Application/Main/Compositors/LoginUseCaseDelegateCompositor.swift
+/Users/fulllab/Documents/AnalyticsArchtecture/AnalyticsArchtecture/Application/Analytics/FacebookWrapper.swift
+/Users/fulllab/Documents/AnalyticsArchtecture/AnalyticsArchtecture/Application/Analytics/FirebaseWrapper.swift
+/Users/fulllab/Documents/AnalyticsArchtecture/AnalyticsArchtecture/Application/Main/Assemblers/Login/LoginAssembler.swift
+/Users/fulllab/Documents/AnalyticsArchtecture/AnalyticsArchtecture/Application/Features/Login/LoginPresenter.swift
+/Users/fulllab/Documents/AnalyticsArchtecture/AnalyticsArchtecture/Application/Features/Login/LoginView.swift
+/Users/fulllab/Documents/AnalyticsArchtecture/AnalyticsArchtecture/Application/Features/Login/LoginViewController.swift
+/Users/fulllab/Documents/AnalyticsArchtecture/AnalyticsArchtecture/Project/SceneDelegate.swift
+/Users/fulllab/Documents/AnalyticsArchtecture/AnalyticsArchtecture/Application/Features/Login/LoginUseCase.swift

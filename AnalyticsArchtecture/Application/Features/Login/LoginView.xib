@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="AnalyticsArchtecture" customModuleProvider="target">
+            <connections>
+                <outlet property="indicator" destination="N3d-B8-oNe" id="TEg-xc-97C"/>
+                <outlet property="passwordTextField" destination="dKK-Kr-swS" id="7Yi-2X-86G"/>
+                <outlet property="userTextField" destination="REm-bA-JYg" id="ct1-6n-9ff"/>
+                <outlet property="view" destination="iN0-l3-epB" id="6rH-nD-noo"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="3S7-2c-55w">
+                    <rect key="frame" x="16" y="383" width="382" height="130"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="user" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="REm-bA-JYg">
+                            <rect key="frame" x="0.0" y="0.0" width="382" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" textContentType="username"/>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dKK-Kr-swS">
+                            <rect key="frame" x="0.0" y="50" width="382" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" textContentType="password"/>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gwa-lx-AV2">
+                            <rect key="frame" x="0.0" y="100" width="382" height="30"/>
+                            <state key="normal" title="Enter"/>
+                            <connections>
+                                <action selector="didPressEnter" destination="-1" eventType="touchUpInside" id="Byc-QR-NdE"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="N3d-B8-oNe">
+                    <rect key="frame" x="197" y="214" width="20" height="20"/>
+                </activityIndicatorView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="N3d-B8-oNe" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" multiplier="0.5" id="7xc-8V-Yns"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="3S7-2c-55w" secondAttribute="trailing" constant="16" id="SBN-Bg-FEc"/>
+                <constraint firstItem="3S7-2c-55w" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="kmz-l5-9Vn"/>
+                <constraint firstItem="N3d-B8-oNe" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="uSN-1W-ztB"/>
+                <constraint firstItem="3S7-2c-55w" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="xvN-j3-gBR"/>
+            </constraints>
+            <point key="canvasLocation" x="25" y="119"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
